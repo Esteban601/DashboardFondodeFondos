@@ -26,7 +26,7 @@
         var chart5 = AmCharts.makeChart("chart5", {
             "titles": [
                 {
-                    "text": "Número de empleados, desglose por función.",
+                    "text": "Satisfación de los empleados.",
                     "size": 16,
                     "color": "#000000"
                 },
@@ -49,35 +49,35 @@
             "dataProvider": [
                 {
                     "year": 2019,
-                    "admon": 339,
-                    "operaciones": 2387,
-                    "construccion": 63,
-                    "directivos": 18,
-                    "total": 2807,
+                    "admon":  75,
+                    "operaciones": 200,
+                    "construccion":  300,
+                    "directivos":  400,
+                    "total":  100,
                 },
                 {
                     "year": 2020,
-                    "admon": 408,
-                    "operaciones": 2481,
-                    "construccion": 52,
-                    "directivos": 18,
-                    "total": 2959,
+                    "admon":  100,
+                    "operaciones":  300,
+                    "construccion":  500,
+                    "directivos":  350,
+                    "total":  100,
                 },
                 {
                     "year": 2021,
-                    "admon": 351,
-                    "operaciones": 2618,
-                    "construccion": 44,
-                    "directivos": 17,
-                    "total": 3030,
+                    "admon":  40,
+                    "operaciones":  150,
+                    "construccion":  300,
+                    "directivos":  500,
+                    "total":  200,
                 },
                 {
                     "year": 2022,
-                    "admon": 378,
-                    "operaciones": 2726,
-                    "construccion": 34,
-                    "directivos": 17,
-                    "total": 3155,
+                    "admon":  60,
+                    "operaciones":  170,
+                    "construccion":  300,
+                    "directivos":  400,
+                    "total":  300,
                 }
             ],
             "valueAxes": [{
@@ -91,7 +91,7 @@
                     "fillAlphas": 0.8,
                     "labelText": "[[value]]",
                     "lineAlpha": 0.3,
-                    "title": "Administración",
+                    "title": "Muy insatisfecho",
                     "type": "column",
                     "color": "#000000",
                     "valueField": "admon"
@@ -101,7 +101,7 @@
                     "fillAlphas": 0.8,
                     "labelText": "[[value]]",
                     "lineAlpha": 0.3,
-                    "title": "Análisis",
+                    "title": "Insatisfecho",
                     "type": "column",
                     "color": "#000000",
                     "valueField": "operaciones"
@@ -111,7 +111,7 @@
                     "fillAlphas": 0.8,
                     "labelText": "[[value]]",
                     "lineAlpha": 0.3,
-                    "title": "Gestión",
+                    "title": "Neutral",
                     "type": "column",
                     "color": "#000000",
                     "valueField": "construccion"
@@ -121,7 +121,7 @@
                     "fillAlphas": 0.8,
                     "labelText": "[[value]]",
                     "lineAlpha": 0.3,
-                    "title": "Directivos relevantes",
+                    "title": "Satisfecho",
                     "type": "column",
                     "color": "#000000",
                     "valueField": "directivos"
@@ -131,7 +131,7 @@
                     "fillAlphas": 0.8,
                     "labelText": "[[value]]",
                     "lineAlpha": 0.3,
-                    "title": "Total",
+                    "title": "Muy Satisfecho",
                     "type": "column",
                     "color": "#000000",
                     "valueField": "total"
