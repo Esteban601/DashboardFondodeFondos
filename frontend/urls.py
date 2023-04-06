@@ -4,25 +4,18 @@ from . import views
 
 urlpatterns = [
         # path('', views.index, name='index'),
-        path('', views.ingresos, name='ingresos'),
+        path('', views.financieros, name='financieros'),
 
-        path('ingresos', views.ingresos, name='ingresos'),
-        path('costos', views.costos, name='costos'),
         path('operacion', views.operacion, name='operacion'),
         path('financieros', views.financieros, name='financieros'),
         path('impuestos_utilidad', views.impuestos_utilidad, name='impuestos_utilidad'),
-        path('dividendos_pagados', views.dividendos_pagados, name='dividendos_pagados'),
         path('utilidad_neta', views.utilidad_neta, name='utilidad_neta'),
         path('salario_min', views.salario_min, name='salario_min'),
-        path('obligaciones_laborales', views.obligaciones_laborales, name='obligaciones_laborales'),
-        path('inversion_proyecto', views.inversion_proyecto, name='inversion_proyecto'),
         path('inversiones_comunitarias', views.inversiones_comunitarias, name='inversiones_comunitarias'),
-        path('ejecutivos_contratados', views.ejecutivos_contratados, name='ejecutivos_contratados'),
         path('inversion_ausencias', views.inversion_ausencias, name='inversion_ausencias'),
         path('inversion_prestaciones', views.inversion_prestaciones, name='inversion_prestaciones'),
         path('invertido_iniciativas', views.invertido_iniciativas, name='invertido_iniciativas'),
         path('perdidas_demandas', views.perdidas_demandas, name='perdidas_demandas'),
-        path('maquinaria_averiada', views.maquinaria_averiada, name='maquinaria_averiada'),
 
         path('consumo_energetico', views.consumo_energetico, name='consumo_energetico'),
         path('consumo_energia_renobable', views.consumo_energia_renobable, name='consumo_energia_renobable'),

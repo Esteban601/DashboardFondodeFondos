@@ -15,23 +15,6 @@ def index(request):
 # Económicos
 ##################
 
-
-def ingresos(request):
-    context = {
-        'page': _('ingresos'),
-        'section': _('economicos')
-    }
-    return render(request, 'frontend/economicos/ingresos.html', context)
-
-
-def costos(request):
-    context = {
-        'page': _('costos'),
-        'section': _('economicos')
-    }
-    return render(request, 'frontend/economicos/costos.html', context)
-
-
 def operacion(request):
     context = {
         'page': _('operacion'),
@@ -56,14 +39,6 @@ def impuestos_utilidad(request):
     return render(request, 'frontend/economicos/impuestos_utilidad.html', context)
 
 
-def dividendos_pagados(request):
-    context = {
-        'page': _('dividendos_pagados'),
-        'section': _('economicos')
-    }
-    return render(request, 'frontend/economicos/dividendos_pagados.html', context)
-
-
 def utilidad_neta(request):
     context = {
         'page': _('utilidad_neta'),
@@ -80,36 +55,12 @@ def salario_min(request):
     return render(request, 'frontend/economicos/salario_min.html', context)
 
 
-def obligaciones_laborales(request):
-    context = {
-        'page': _('obligaciones_laborales'),
-        'section': _('economicos')
-    }
-    return render(request, 'frontend/economicos/obligaciones_laborales.html', context)
-
-
-def inversion_proyecto(request):
-    context = {
-        'page': _('inversion_proyecto'),
-        'section': _('economicos')
-    }
-    return render(request, 'frontend/economicos/inversion_proyecto.html', context)
-
-
 def inversiones_comunitarias(request):
     context = {
         'page': _('inversiones_comunitarias'),
         'section': _('economicos')
     }
     return render(request, 'frontend/economicos/inversiones_comunitarias.html', context)
-
-
-def ejecutivos_contratados(request):
-    context = {
-        'page': _('ejecutivos_contratados'),
-        'section': _('economicos')
-    }
-    return render(request, 'frontend/economicos/ejecutivos_contratados.html', context)
 
 
 def inversion_ausencias(request):
@@ -142,14 +93,6 @@ def perdidas_demandas(request):
         'section': _('economicos')
     }
     return render(request, 'frontend/economicos/perdidas_demandas.html', context)
-
-
-def maquinaria_averiada(request):
-    context = {
-        'page': _('maquinaria_averiada'),
-        'section': _('economicos')
-    }
-    return render(request, 'frontend/economicos/maquinaria_averiada.html', context)
 
 
 ###############
